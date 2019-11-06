@@ -1,6 +1,6 @@
 #include "../std_lib_facilities.h"
 
-void main()
+int main()
 {
 
     return 0;
