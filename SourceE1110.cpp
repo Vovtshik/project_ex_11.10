@@ -5,10 +5,11 @@ vector<string>split(const string& s);
 int main()
 {
     string str("Two little birds\nSitting on a wall,\nOne called Peter,\nOne called Paul.\nFly away Peter,\nFly away Paul,\nCome back Peter,\nCome back Paul.\n");
+    cout << "\n\n" << str << '\n';
     vector<string>vstr(split(str));
     for(string s: vstr)
     { 
-        cout << s << "\n";
+        cout << s << '\n';
     }
     return 0;
 }
